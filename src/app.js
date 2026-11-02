@@ -36,7 +36,7 @@ const detail = record => openRecord(record, {startPractice: practiseRecord});
 function render() {
   disposeStructureWeb();
   document.documentElement.lang = getLanguage();
-  document.title = 'Terpene Atlas · ' + t(...navigation.find(([id]) => id === view)[2]);
+  document.title = 'TerpenArc · ' + t(...navigation.find(([id]) => id === view)[2]);
   app.innerHTML = shellHTML(view);
   bindStudioShell();
   const root = document.querySelector('#page-root');

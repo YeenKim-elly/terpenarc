@@ -75,3 +75,6 @@ docs/        앱 구성과 데이터 형식
 
 구조의 유사성만으로 생합성 전환이나 물질의 동정을 확정할 수는 없습니다.
 항목별 출처와 반응의 적용 범위, 입체화학의 한계를 함께 확인하세요.
+
+After editing JavaScript, styles or artwork, run `npm run prepare:assets` before
+`npm run check` and commit the updated asset versions with your changes.

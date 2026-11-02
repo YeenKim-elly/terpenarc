@@ -8,6 +8,7 @@ const isoprene = '<path d="m3 16 6-8 6 8 6-8M9 8V3m-3.4 13 3.5-4.6m8.5 4.6 3.2-4
 // Keep navigation concepts legible at 22px: one membrane and one crossing arrow.
 const transport = '<path d="M10 3v5m0 8v5M14 3v5m0 8v5M3 12h18m-4-4 4 4-4 4"/>';
 const paths = {
+ compare:'<path d="M4 7h16m-4-4 4 4-4 4M20 17H4m4-4-4 4 4 4"/>',
  hex:isoprene,
  isoprene,
  practice:limonene,

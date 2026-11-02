@@ -119,3 +119,6 @@ Scientific records and illustrations retain their source information.
 See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for attribution and
 asset-specific licence terms. Source-derived Crispene figure panels are subject
 to CC BY-NC-SA 3.0.
+
+After editing JavaScript, styles or artwork, run `npm run prepare:assets` before
+`npm run check` and commit the updated asset versions with your changes.

@@ -1,9 +1,10 @@
+import {assetURL} from '../lib/asset-version.js';
 const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g, character => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[character]));
 
 // Transparent chemical artwork is generated from the catalogue, with source
 // records and depiction conventions in assets/ui/chemical-art.json.
 const drawings = Object.fromEntries(['family','precursor','motif','enzyme','scaffold','comparison']
-  .map(mode => [mode, 'assets/ui/' + mode + '.svg']));
+  .map(mode => [mode, assetURL('assets/ui/' + mode + '.svg')]));
 
 /** A practice selector; activation selects a mode before the session is launched. */
 export function renderStudioModeCard({mode, title, description, count, selected = false, expanded = false, panelId, lang = 'en'} = {}) {
