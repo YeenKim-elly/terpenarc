@@ -1,0 +1,576 @@
+[
+  {
+    "from": "ipp",
+    "to": "gpp",
+    "group": "gpp-condensation",
+    "enzyme": [
+      "Geranyl diphosphate synthase · GPPS",
+      "Geranyl diphosphate synthase · GPPS"
+    ],
+    "organism": [
+      "General activity; no single organism assigned",
+      "일반적 효소 활성 · 특정 생물종 미지정"
+    ],
+    "change": [
+      "One C5 unit adds to an allylic C5 substrate. Both substrates are required.",
+      "Allylic C5 기질에 C5 단위 하나가 결합합니다. 두 기질이 모두 필요합니다."
+    ],
+    "participants": {
+      "inputs": [
+        [
+          "dmapp",
+          1
+        ],
+        [
+          "ipp",
+          1
+        ]
+      ],
+      "outputs": [
+        [
+          "gpp",
+          1
+        ]
+      ]
+    },
+    "carbon": [
+      {
+        "label": "DMAPP",
+        "count": 5
+      },
+      {
+        "label": "IPP",
+        "count": 5
+      },
+      {
+        "label": "GPP",
+        "count": 10,
+        "product": true
+      }
+    ],
+    "cofactors": [
+      "Diphosphate (PPi) is released.",
+      "Diphosphate(PPi)가 방출됩니다."
+    ],
+    "sources": [
+      {
+        "url": "https://iubmb.qmul.ac.uk/enzyme/EC2/5/1/1.html",
+        "label": "IUBMB · EC 2.5.1.1"
+      }
+    ]
+  },
+  {
+    "from": "ggpp",
+    "to": "15-cis-phytoene",
+    "enzyme": [
+      "Phytoene synthase · PSY / CrtB",
+      "Phytoene synthase · PSY / CrtB"
+    ],
+    "organism": [
+      "Reference activity; isoform depends on organism",
+      "참고 활성 · isoform은 생물종에 따라 다름"
+    ],
+    "change": [
+      "Two C20 substrates build one C40 skeleton. The common product is 15-cis-phytoene.",
+      "두 C20 기질로 C40 골격을 만듭니다. 흔한 생성물은 15-cis-phytoene입니다."
+    ],
+    "participants": {
+      "inputs": [
+        [
+          "ggpp",
+          2
+        ]
+      ],
+      "outputs": [
+        [
+          "15-cis-phytoene",
+          1
+        ]
+      ]
+    },
+    "carbon": [
+      {
+        "label": "GGPP × 2",
+        "count": 40,
+        "carbonLabel": "2 × C20"
+      },
+      {
+        "label": "Phytoene",
+        "count": 40,
+        "product": true
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://iubmb.qmul.ac.uk/enzyme/EC2/5/1/32.html",
+        "label": "IUBMB · EC 2.5.1.32"
+      }
+    ]
+  },
+  {
+    "from": "beta-carotene",
+    "to": "retinal",
+    "enzyme": [
+      "β-Carotene 15,15′-dioxygenase · BCO1",
+      "β-Carotene 15,15′-dioxygenase · BCO1"
+    ],
+    "organism": [
+      "Provitamin-A reference activity",
+      "Provitamin A 참고 활성"
+    ],
+    "change": [
+      "Central 15,15′ cleavage yields two C20 retinal molecules.",
+      "중앙 15,15′ 결합의 절단으로 C20 retinal 두 분자가 생깁니다."
+    ],
+    "participants": {
+      "inputs": [
+        [
+          "beta-carotene",
+          1
+        ]
+      ],
+      "outputs": [
+        [
+          "retinal",
+          2
+        ]
+      ]
+    },
+    "carbon": [
+      {
+        "label": "β-Carotene",
+        "count": 40
+      },
+      {
+        "label": "Retinal × 2",
+        "count": 40,
+        "product": true,
+        "carbonLabel": "2 × C20"
+      }
+    ],
+    "cofactors": [
+      "O2 is consumed; Fe2+ is a catalytic cofactor.",
+      "O2가 소비되며 Fe2+는 촉매 보조인자입니다."
+    ],
+    "sources": [
+      {
+        "url": "https://iubmb.qmul.ac.uk/enzyme/EC1/13/11/63.html",
+        "label": "IUBMB · EC 1.13.11.63"
+      }
+    ]
+  },
+  {
+    "from": "zeaxanthin",
+    "to": "crocetin-dialdehyde",
+    "group": "ccd2-zeaxanthin-cleavage",
+    "enzyme": [
+      "Crocus sativus CCD2",
+      "Crocus sativus CCD2"
+    ],
+    "organism": [
+      "Crocus sativus · saffron",
+      "Crocus sativus · 사프란"
+    ],
+    "change": [
+      "Sequential 7,8 and 7′,8′ cleavage partitions the C40 core into C20 + C10 + C10.",
+      "7,8 및 7′,8′의 순차 절단으로 C40 골격이 C20 + C10 + C10으로 나뉩니다."
+    ],
+    "participants": {
+      "inputs": [
+        [
+          "zeaxanthin",
+          1
+        ]
+      ],
+      "outputs": [
+        [
+          "crocetin-dialdehyde",
+          1
+        ],
+        [
+          "htcc",
+          2
+        ]
+      ]
+    },
+    "carbon": [
+      {
+        "label": "Zeaxanthin",
+        "count": 40
+      },
+      {
+        "label": "Crocetin dialdehyde",
+        "count": 20,
+        "product": true
+      },
+      {
+        "label": "HTCC × 2",
+        "count": 20,
+        "product": true,
+        "carbonLabel": "2 × C10"
+      }
+    ],
+    "expansion": [
+      [
+        "Zeaxanthin → 3-OH-β-apo-8′-carotenal (C30) + HTCC (C10)",
+        "Zeaxanthin → 3-OH-β-apo-8′-carotenal(C30) + HTCC(C10)"
+      ],
+      [
+        "C30 intermediate → crocetin dialdehyde (C20) + a second HTCC (C10)",
+        "C30 중간체 → crocetin dialdehyde(C20) + 두 번째 HTCC(C10)"
+      ]
+    ],
+    "sources": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25097262/",
+        "label": "Frusciante et al. · 2014"
+      }
+    ]
+  },
+  {
+    "from": "gpp",
+    "to": "fpp",
+    "enzyme": [
+      "FPPS",
+      "FPPS"
+    ],
+    "organism": [
+      "Representative elongation activity; enzyme chain-length specificity matters.",
+      "대표 사슬 연장 활성입니다. 효소의 사슬 길이 특이성이 중요합니다."
+    ],
+    "change": [
+      "One IPP adds five carbons to the allylic diphosphate substrate.",
+      "IPP 하나가 allylic diphosphate 기질에 탄소 다섯 개를 더합니다."
+    ],
+    "cofactors": [
+      "IPP is a co-substrate; diphosphate is released.",
+      "IPP는 공동 기질이며 diphosphate가 방출됩니다."
+    ],
+    "participants": {
+      "inputs": [
+        [
+          "gpp",
+          1
+        ],
+        [
+          "ipp",
+          1
+        ]
+      ],
+      "outputs": [
+        [
+          "fpp",
+          1
+        ]
+      ]
+    },
+    "carbon": [
+      {
+        "label": "GPP",
+        "count": 10
+      },
+      {
+        "label": "IPP",
+        "count": 5
+      },
+      {
+        "label": "FPP",
+        "count": 15,
+        "product": true
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://iubmb.qmul.ac.uk/enzyme/EC2/5/1/10.html",
+        "label": "Reaction reference"
+      }
+    ]
+  },
+  {
+    "from": "fpp",
+    "to": "ggpp",
+    "enzyme": [
+      "GGPPS",
+      "GGPPS"
+    ],
+    "organism": [
+      "Representative elongation activity; enzyme chain-length specificity matters.",
+      "대표 사슬 연장 활성입니다. 효소의 사슬 길이 특이성이 중요합니다."
+    ],
+    "change": [
+      "One IPP adds five carbons to the allylic diphosphate substrate.",
+      "IPP 하나가 allylic diphosphate 기질에 탄소 다섯 개를 더합니다."
+    ],
+    "cofactors": [
+      "IPP is a co-substrate; diphosphate is released.",
+      "IPP는 공동 기질이며 diphosphate가 방출됩니다."
+    ],
+    "participants": {
+      "inputs": [
+        [
+          "fpp",
+          1
+        ],
+        [
+          "ipp",
+          1
+        ]
+      ],
+      "outputs": [
+        [
+          "ggpp",
+          1
+        ]
+      ]
+    },
+    "carbon": [
+      {
+        "label": "FPP",
+        "count": 15
+      },
+      {
+        "label": "IPP",
+        "count": 5
+      },
+      {
+        "label": "GGPP",
+        "count": 20,
+        "product": true
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://iubmb.qmul.ac.uk/enzyme/EC2/5/1/29.html",
+        "label": "Reaction reference"
+      }
+    ]
+  },
+  {
+    "from": "ggpp",
+    "to": "gfpp",
+    "enzyme": [
+      "Geranylfarnesyl diphosphate synthase",
+      "Geranylfarnesyl diphosphate synthase"
+    ],
+    "organism": [
+      "Representative elongation activity; enzyme chain-length specificity matters.",
+      "대표 사슬 연장 활성입니다. 효소의 사슬 길이 특이성이 중요합니다."
+    ],
+    "change": [
+      "One IPP adds five carbons to the allylic diphosphate substrate.",
+      "IPP 하나가 allylic diphosphate 기질에 탄소 다섯 개를 더합니다."
+    ],
+    "cofactors": [
+      "IPP is a co-substrate; diphosphate is released.",
+      "IPP는 공동 기질이며 diphosphate가 방출됩니다."
+    ],
+    "participants": {
+      "inputs": [
+        [
+          "ggpp",
+          1
+        ],
+        [
+          "ipp",
+          1
+        ]
+      ],
+      "outputs": [
+        [
+          "gfpp",
+          1
+        ]
+      ]
+    },
+    "carbon": [
+      {
+        "label": "GGPP",
+        "count": 20
+      },
+      {
+        "label": "IPP",
+        "count": 5
+      },
+      {
+        "label": "GFPP",
+        "count": 25,
+        "product": true
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://iubmb.qmul.ac.uk/enzyme/EC2/5/1/81.html",
+        "label": "Reaction reference"
+      }
+    ]
+  },
+  {
+    "from": "gfpp",
+    "to": "hexpp",
+    "enzyme": [
+      "Suitable medium-chain prenyltransferase",
+      "Suitable medium-chain prenyltransferase"
+    ],
+    "organism": [
+      "Representative elongation activity; enzyme chain-length specificity matters.",
+      "대표 사슬 연장 활성입니다. 효소의 사슬 길이 특이성이 중요합니다."
+    ],
+    "change": [
+      "One IPP adds five carbons to the allylic diphosphate substrate.",
+      "IPP 하나가 allylic diphosphate 기질에 탄소 다섯 개를 더합니다."
+    ],
+    "cofactors": [
+      "IPP is a co-substrate; diphosphate is released.",
+      "IPP는 공동 기질이며 diphosphate가 방출됩니다."
+    ],
+    "participants": {
+      "inputs": [
+        [
+          "gfpp",
+          1
+        ],
+        [
+          "ipp",
+          1
+        ]
+      ],
+      "outputs": [
+        [
+          "hexpp",
+          1
+        ]
+      ]
+    },
+    "carbon": [
+      {
+        "label": "GFPP",
+        "count": 25
+      },
+      {
+        "label": "IPP",
+        "count": 5
+      },
+      {
+        "label": "HEXPP",
+        "count": 30,
+        "product": true
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC139513/",
+        "label": "Reaction reference"
+      }
+    ]
+  },
+  {
+    "from": "ipp",
+    "to": "npp",
+    "group": "npp-condensation",
+    "enzyme": [
+      "Tomato NDPS1",
+      "토마토 NDPS1"
+    ],
+    "organism": [
+      "Solanum lycopersicum · trichome-associated pathway",
+      "Solanum lycopersicum · 선모 관련 경로"
+    ],
+    "participants": {
+      "inputs": [
+        [
+          "dmapp",
+          1
+        ],
+        [
+          "ipp",
+          1
+        ]
+      ],
+      "outputs": [
+        [
+          "npp",
+          1
+        ]
+      ]
+    },
+    "carbon": [
+      {
+        "label": "DMAPP",
+        "count": 5
+      },
+      {
+        "label": "IPP",
+        "count": 5
+      },
+      {
+        "label": "NPP",
+        "count": 10,
+        "product": true
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2705607/",
+        "label": "Schilmiller et al. · 2009"
+      }
+    ]
+  },
+  {
+    "from": "fpp",
+    "to": "squalene",
+    "enzyme": [
+      "Squalene synthase · SQS",
+      "Squalene synthase · SQS"
+    ],
+    "organism": [
+      "Reference activity; organism-specific enzymes differ.",
+      "참고 활성입니다. 생물종에 따라 효소가 다릅니다."
+    ],
+    "participants": {
+      "inputs": [
+        [
+          "fpp",
+          2
+        ]
+      ],
+      "outputs": [
+        [
+          "squalene",
+          1
+        ]
+      ]
+    },
+    "carbon": [
+      {
+        "label": "FPP × 2",
+        "count": 30,
+        "carbonLabel": "2 × C15"
+      },
+      {
+        "label": "Squalene",
+        "count": 30,
+        "product": true
+      }
+    ],
+    "cofactors": [
+      "NAD(P)H and H+ are consumed; two diphosphates and NAD(P)+ are released overall.",
+      "전체 반응에서 NAD(P)H와 H+를 사용하고 두 diphosphate와 NAD(P)+를 방출합니다."
+    ],
+    "expansion": [
+      [
+        "Two FPP molecules → presqualene diphosphate + diphosphate",
+        "두 FPP → presqualene diphosphate + diphosphate"
+      ],
+      [
+        "Reductive rearrangement → squalene + diphosphate",
+        "환원적 재배열 → squalene + diphosphate"
+      ]
+    ],
+    "sources": [
+      {
+        "url": "https://iubmb.qmul.ac.uk/enzyme/EC2/5/1/21.html",
+        "label": "IUBMB · EC 2.5.1.21"
+      }
+    ]
+  }
+]

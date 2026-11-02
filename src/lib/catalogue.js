@@ -2,10 +2,16 @@ export const graphIds=["precursors","carotenoids","diterpenes","scaffolds","dite
 export const catalogue = {
   molecules: [], precursors: [], scaffolds: [], motifs: [], reactions: [],
   comparisons: [], comparisonStructures: [], graphNotes: [], comparisonQuestions: [],
+  learningRoutes: [], coreReactionLessons: [], reactionLessons: [], fucoxanthinNetwork: {}, learningSources: {},
   references: [], families: {}, enzymes: {}, graphs: {}, familyGuides: {}, pathwayNotes: {}
 };
 
 export const catalogueFiles = {
+  learningRoutes: 'learning-routes.json',
+  coreReactionLessons: 'core-reaction-lessons.json',
+  reactionLessons: 'reaction-lessons.json',
+  fucoxanthinNetwork: 'fucoxanthin-network.json',
+  learningSources: 'learning-sources.json',
   molecules: 'molecules.json',
   precursors: 'precursors.json',
   scaffolds: 'scaffolds.json',

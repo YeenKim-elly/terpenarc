@@ -1,6 +1,6 @@
 # Architecture
 
-Terpene Atlas is a static application with native JavaScript modules.
+TerpenArc is a static application with native JavaScript modules.
 It has no server-side application or runtime package dependencies.
 
 ## Application flow
@@ -36,3 +36,10 @@ directory. Update relative paths together. Run npm run check after editing.
 
 The server only serves index.html and the src/, styles/, data/ and assets/
 directories. It supports GET and HEAD requests.
+
+## Guided pathways
+
+`pathway-explorer.js` adds route selection, reaction inspection and chemistry
+stories to Structure web. Route and evidence records live in the `learning-*`,
+`*-reaction-lessons` and `fucoxanthin-network` JSON datasets. The fucoxanthin
+viewer uses the same obstacle-aware routing module as the main graph.

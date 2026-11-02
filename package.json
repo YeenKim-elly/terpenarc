@@ -1,9 +1,9 @@
 {
-  "name": "terpene-atlas",
+  "name": "terpenarc",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "A bilingual learning atlas for terpene structures and biosynthetic relationships.",
+  "description": "A bilingual learning studio for terpene structures, biosynthetic pathways and enzyme reactions.",
   "engines": {
     "node": ">=22"
   },

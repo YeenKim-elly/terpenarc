@@ -1,4 +1,6 @@
-# Terpene Atlas
+# TerpenArc
+
+Explore the chemistry. Follow the connections.
 
 A bilingual terpene learning and structure-exploration site.
 
@@ -7,6 +9,10 @@ functional groups and stereochemistry, and follow source-linked biosynthetic
 pathways through interactive maps and practice.
 
 ## Features
+
+- Eighteen guided reference routes with step controls, reaction evidence and carbon accounting.
+- Five chemistry stories, including class II rearrangements and an eight-reaction fucoxanthin network.
+- Clickable reaction arrows with enzyme, organism, cofactor and source details.
 
 - Interactive geraniol showcase with colour-coded C5 building blocks and a hydroxyl view.
 - Collapsible navigation and equal-width practice cards with session options beneath the selected row.
@@ -70,7 +76,7 @@ node scripts/check.mjs
 ## Project structure
 
 ~~~text
-terpene-atlas/
+terpenarc/
 ├── index.html
 ├── src/
 │   ├── app.js

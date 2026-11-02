@@ -1,0 +1,26 @@
+{
+  "xact2026": {
+    "url": "https://doi.org/10.1073/pnas.2525772123",
+    "readUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13080032/",
+    "title": "Cao et al. 2026 — XACT and marine carotenoid branching",
+    "locator": "Figures 3, 4, 7; Fucoxanthin Synthesis Proceeds Through a Flexible, Nonlinear Pathway"
+  },
+  "fuco2022": {
+    "url": "https://doi.org/10.1073/pnas.2203708119",
+    "readUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9499517/",
+    "title": "Bai et al. 2022 — Diatom fucoxanthin intermediates",
+    "locator": "Figures 2–4; The deduced biosynthetic pathway of fucoxanthin in diatoms"
+  },
+  "crtiso2023": {
+    "url": "https://doi.org/10.1093/plcell/koad116",
+    "readUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10396388/",
+    "title": "Cao et al. 2023 — CRTISO5 alkyne hydration",
+    "locator": "Figure 3; heavy-oxygen-water labelling"
+  },
+  "ccd22014": {
+    "url": "https://doi.org/10.1073/pnas.1404629111",
+    "readUrl": "https://pubmed.ncbi.nlm.nih.gov/25097262/",
+    "title": "Frusciante et al. 2014 — Sequential zeaxanthin cleavage",
+    "locator": "Abstract; Figures 1, 3, 4"
+  }
+}

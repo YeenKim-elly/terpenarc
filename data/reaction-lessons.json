@@ -1,0 +1,638 @@
+[
+  {
+    "graph": "monoterpenes",
+    "from": "plus-pulegone",
+    "to": "minus-menthone",
+    "enzyme": [
+      "Pulegone reductase (PR)",
+      "Pulegone reductase (PR)"
+    ],
+    "organism": [
+      "Mentha × piperita (peppermint)",
+      "Mentha × piperita (페퍼민트)"
+    ],
+    "cofactors": [
+      "NADPH supplies reducing equivalents.",
+      "NADPH가 환원력을 제공합니다."
+    ],
+    "change": [
+      "Reduces the 4(8) double bond; the carbon skeleton is retained.",
+      "4(8) 이중결합을 환원하며 탄소 골격은 유지됩니다."
+    ],
+    "evidenceKinds": [
+      "recombinant-enzyme-assay",
+      "heterologous-expression"
+    ],
+    "evidence": [
+      "Recombinant PR produced both (−)-menthone and (+)-isomenthone, at 55:45 in the reported assay.",
+      "재조합 PR은 해당 실험에서 (−)-menthone과 (+)-isomenthone을 55:45로 생성했습니다."
+    ],
+    "limitation": [
+      "The displayed branch is one product; this ratio is assay-specific, not a universal plant composition.",
+      "표시된 분기는 한 생성물입니다. 비율은 해당 실험 조건의 결과이며 식물 전체의 보편적 조성이 아닙니다."
+    ],
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/13679086/",
+      "https://iubmb.qmul.ac.uk/enzyme/EC1/3/1/81.html"
+    ],
+    "reviewedOn": "2026-11-01"
+  },
+  {
+    "graph": "monoterpenes",
+    "from": "minus-menthone",
+    "to": "minus-menthol",
+    "enzyme": [
+      "Menthone:(−)-(3R)-menthol reductase (MMR)",
+      "Menthone:(−)-(3R)-menthol reductase (MMR)"
+    ],
+    "organism": [
+      "Mentha × piperita (peppermint)",
+      "Mentha × piperita (페퍼민트)"
+    ],
+    "cofactors": [
+      "NADPH; the ketone is reduced to an alcohol.",
+      "NADPH를 사용해 ketone을 alcohol로 환원합니다."
+    ],
+    "change": [
+      "Creates the alcohol stereocentre while retaining the C10 framework.",
+      "C10 골격을 유지하면서 alcohol 탄소의 입체배열을 형성합니다."
+    ],
+    "evidenceKinds": [
+      "recombinant-enzyme-assay",
+      "heterologous-expression"
+    ],
+    "evidence": [
+      "The recombinant enzyme yielded 95% (−)-menthol and 5% (+)-neomenthol in the cited assay; products were compared by GC–MS.",
+      "재조합 효소는 인용된 실험에서 (−)-menthol 95%, (+)-neomenthol 5%를 생성했으며 GC–MS로 생성물을 비교했습니다."
+    ],
+    "limitation": [
+      "A major-product preference does not mean exclusive formation of one epimer.",
+      "주생성물 선택성이 한 epimer만 생성한다는 뜻은 아닙니다."
+    ],
+    "sources": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC1065388/"
+    ],
+    "reviewedOn": "2026-11-01"
+  },
+  {
+    "graph": "monoterpenes",
+    "from": "minus-menthone",
+    "to": "plus-neomenthol",
+    "enzyme": [
+      "Menthone:(+)-(3S)-neomenthol reductase (MNR)",
+      "Menthone:(+)-(3S)-neomenthol reductase (MNR)"
+    ],
+    "organism": [
+      "Mentha × piperita (peppermint)",
+      "Mentha × piperita (페퍼민트)"
+    ],
+    "cofactors": [
+      "NADPH.",
+      "NADPH."
+    ],
+    "change": [
+      "The alternative ketoreductase favours the opposite configuration at the alcohol centre.",
+      "다른 ketoreductase가 alcohol 중심의 반대 입체배열을 선호합니다."
+    ],
+    "evidenceKinds": [
+      "recombinant-enzyme-assay",
+      "heterologous-expression"
+    ],
+    "evidence": [
+      "Recombinant MNR yielded 94% (+)-neomenthol and 6% (−)-menthol from (−)-menthone in the reported assay.",
+      "재조합 MNR은 해당 실험에서 (−)-menthone으로부터 (+)-neomenthol 94%, (−)-menthol 6%를 생성했습니다."
+    ],
+    "limitation": [
+      "These are alternative enzyme-dependent outcomes, not spontaneous interconversion of the two alcohols.",
+      "서로 다른 효소의 생성물 분포입니다. 두 alcohol의 자발적 상호전환을 뜻하지 않습니다."
+    ],
+    "sources": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC1065388/"
+    ],
+    "reviewedOn": "2026-11-01"
+  },
+  {
+    "graph": "artemisinin",
+    "from": "amorpha-diene",
+    "to": "artemisinic-alcohol",
+    "enzyme": [
+      "AaCYP71AV1 with a cytochrome P450 reductase",
+      "Cytochrome P450 reductase와 함께 작용하는 AaCYP71AV1"
+    ],
+    "organism": [
+      "Artemisia annua enzyme; characterised by yeast expression",
+      "Artemisia annua 효소; 효모 발현으로 기능 규명"
+    ],
+    "cofactors": [
+      "O2 and reducing equivalents supplied through NADPH–P450 reductase; heme-containing enzyme.",
+      "O2와 NADPH–P450 reductase를 통한 환원력을 사용하며 효소는 heme을 포함합니다."
+    ],
+    "change": [
+      "C12 hydroxylation changes a methyl group to a primary alcohol.",
+      "C12 수산화로 methyl기가 primary alcohol로 바뀝니다."
+    ],
+    "evidenceKinds": [
+      "heterologous-expression",
+      "enzyme-activity-assay"
+    ],
+    "evidence": [
+      "Yeast-expressed CYP71AV1 oxidised amorpha-4,11-diene and also accepted the subsequent alcohol and aldehyde.",
+      "효모에서 발현한 CYP71AV1은 amorpha-4,11-diene을 산화했고 후속 alcohol과 aldehyde에도 활성을 보였습니다."
+    ],
+    "limitation": [
+      "This is the first oxidation, not the whole pathway to artemisinin.",
+      "첫 산화 단계이며 artemisinin까지의 전체 경로가 아닙니다."
+    ],
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/16458889/",
+      "https://iubmb.qmul.ac.uk/enzyme/EC1/14/14/114.html"
+    ],
+    "reviewedOn": "2026-11-01"
+  },
+  {
+    "graph": "artemisinin",
+    "from": "artemisinic-aldehyde",
+    "to": "dihydroartemisinic-aldehyde",
+    "enzyme": [
+      "Artemisinic aldehyde Δ11(13) reductase (AaDBR2)",
+      "Artemisinic aldehyde Δ11(13) reductase (AaDBR2)"
+    ],
+    "organism": [
+      "Artemisia annua",
+      "Artemisia annua"
+    ],
+    "cofactors": [
+      "NADPH-dependent reduction.",
+      "NADPH 의존적 환원."
+    ],
+    "change": [
+      "Reduces the 11(13) alkene of the unsaturated aldehyde; the aldehyde group remains.",
+      "불포화 aldehyde의 11(13) alkene을 환원하며 aldehyde기는 유지됩니다."
+    ],
+    "evidenceKinds": [
+      "recombinant-enzyme-assay",
+      "heterologous-pathway",
+      "native-expression"
+    ],
+    "evidence": [
+      "Recombinant DBR2 acted on artemisinic aldehyde. Expression with pathway genes in yeast produced dihydroartemisinic acid; native transcripts were enriched in glandular trichomes.",
+      "재조합 DBR2의 artemisinic aldehyde 활성을 확인했습니다. 경로 유전자와 함께 효모에서 발현해 dihydroartemisinic acid를 얻었고 원식물의 선모에서 높은 발현을 관찰했습니다."
+    ],
+    "limitation": [
+      "DBR2 is not a direct artemisinic-acid-to-dihydroartemisinic-acid enzyme.",
+      "DBR2는 artemisinic acid를 dihydroartemisinic acid로 직접 바꾸는 효소가 아닙니다."
+    ],
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/18495659/"
+    ],
+    "reviewedOn": "2026-11-01"
+  },
+  {
+    "graph": "artemisinin",
+    "from": "dihydroartemisinic-aldehyde",
+    "to": "dihydroartemisinic-acid",
+    "enzyme": [
+      "Aldehyde dehydrogenase AaALDH1",
+      "Aldehyde dehydrogenase AaALDH1"
+    ],
+    "organism": [
+      "Artemisia annua",
+      "Artemisia annua"
+    ],
+    "cofactors": [
+      "NAD+ or NADP+ and water; reduced nicotinamide cofactor is produced.",
+      "NAD+ 또는 NADP+와 물을 사용하며 환원형 nicotinamide 보조인자가 생성됩니다."
+    ],
+    "change": [
+      "Oxidises the aldehyde to a carboxyl group, retaining the C15 framework.",
+      "C15 골격을 유지하면서 aldehyde를 carboxyl기로 산화합니다."
+    ],
+    "evidenceKinds": [
+      "purified-enzyme-assay",
+      "native-expression"
+    ],
+    "evidence": [
+      "Purified recombinant ALDH1 oxidised both artemisinic and dihydroartemisinic aldehydes. The study tested both NAD+ and NADP+ with the dihydro substrate.",
+      "정제 재조합 ALDH1은 artemisinic 및 dihydroartemisinic aldehyde를 모두 산화했습니다. Dihydro 기질에 대해 NAD+와 NADP+를 모두 시험했습니다."
+    ],
+    "limitation": [
+      "Expression and enzyme activity support a pathway role; they are distinct from a native knockout experiment.",
+      "발현과 효소 활성은 경로 참여를 지지하지만 원식물의 knockout 실험과는 다른 근거입니다."
+    ],
+    "sources": [
+      "https://doi.org/10.1139/B09-032",
+      "https://www.rhea-db.org/rhea/60688"
+    ],
+    "reviewedOn": "2026-11-01"
+  },
+  {
+    "graph": "artemisinin",
+    "from": "dihydroartemisinic-acid",
+    "to": "artemisinin",
+    "enzyme": [
+      "Nonenzymatic oxidative cascade (condensed)",
+      "비효소적 산화 연쇄반응 (요약)"
+    ],
+    "organism": [
+      "Chemical conversion of an Artemisia annua pathway intermediate",
+      "Artemisia annua 경로 중간체의 화학적 전환"
+    ],
+    "cofactors": [
+      "Oxygen; light affects the measured reaction rate.",
+      "산소를 사용하며 빛은 측정된 반응속도에 영향을 줍니다."
+    ],
+    "change": [
+      "Peroxide chemistry, bond cleavage and cyclisation generate the endoperoxide-containing product.",
+      "Peroxide 반응, 결합 절단 및 고리 형성으로 endoperoxide를 포함한 생성물이 만들어집니다."
+    ],
+    "evidenceKinds": [
+      "cell-free-chemical-conversion",
+      "isotope-labelled-experiment"
+    ],
+    "evidence": [
+      "Labelled-substrate experiments quantified artemisinin formation without enzyme, under both illuminated and dark conditions.",
+      "동위원소 표지 기질 실험에서 효소 없이 artemisinin이 생성됨을 밝은 조건과 어두운 조건 모두에서 정량했습니다."
+    ],
+    "limitation": [
+      "A demonstrated chemical route does not establish that every native step or its regulation is enzyme-independent.",
+      "화학적 전환의 입증이 원식물의 모든 단계와 조절이 효소와 무관하다는 뜻은 아닙니다."
+    ],
+    "sources": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6988128/"
+    ],
+    "reviewedOn": "2026-11-01"
+  },
+  {
+    "graph": "diterpene-pathway",
+    "alsoGraphs": [
+      "gibberellins",
+      "precursors"
+    ],
+    "from": "ggpp",
+    "to": "ent-cpp",
+    "enzyme": [
+      "Arabidopsis ent-copalyl diphosphate synthase (AtCPS; class II)",
+      "Arabidopsis ent-copalyl diphosphate synthase (AtCPS; class II)"
+    ],
+    "organism": [
+      "Arabidopsis thaliana reference enzyme",
+      "Arabidopsis thaliana 참고 효소"
+    ],
+    "cofactors": [
+      "Protonation initiates cyclisation. Mg2+ enhances AtCPS activity; this is distinct from class I diphosphate ionisation.",
+      "Protonation으로 고리 형성이 시작됩니다. Mg2+는 AtCPS 활성을 높이지만 class I의 diphosphate 이온화 개시와는 다릅니다."
+    ],
+    "change": [
+      "Forms the bicyclic ent-CPP framework while retaining diphosphate.",
+      "Diphosphate를 유지하며 이중 고리 ent-CPP 골격을 형성합니다."
+    ],
+    "evidenceKinds": [
+      "structural-study",
+      "native-overexpression"
+    ],
+    "evidence": [
+      "AtCPS structures locate the class II active site. Native Arabidopsis overexpression studies link AtCPS and AtKS to elevated early GA intermediates.",
+      "AtCPS 구조 연구는 class II 활성 부위를 확인했습니다. Arabidopsis 과발현 실험은 AtCPS와 AtKS를 초기 GA 중간체 증가와 연결했습니다."
+    ],
+    "limitation": [
+      "The structural study uses analogues; it does not directly image every short-lived carbocation.",
+      "구조 연구는 유사체를 사용하며 모든 짧은 수명의 carbocation을 직접 관찰한 것은 아닙니다."
+    ],
+    "sources": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3118866/",
+      "https://pubmed.ncbi.nlm.nih.gov/12805613/"
+    ],
+    "reviewedOn": "2026-11-01"
+  },
+  {
+    "graph": "diterpene-pathway",
+    "alsoGraphs": [
+      "gibberellins"
+    ],
+    "from": "ent-cpp",
+    "to": "ent-kaurene",
+    "enzyme": [
+      "Arabidopsis ent-kaurene synthase (AtKS; class I)",
+      "Arabidopsis ent-kaurene synthase (AtKS; class I)"
+    ],
+    "organism": [
+      "Arabidopsis thaliana reference enzyme",
+      "Arabidopsis thaliana 참고 효소"
+    ],
+    "cofactors": [
+      "Class I ionisation chemistry; diphosphate is released.",
+      "Class I 이온화 반응이며 diphosphate가 방출됩니다."
+    ],
+    "change": [
+      "Cyclisation and rearrangement convert bicyclic ent-CPP into tetracyclic ent-kaurene.",
+      "고리 형성과 재배열을 통해 이중 고리 ent-CPP가 사중 고리 ent-kaurene으로 바뀝니다."
+    ],
+    "evidenceKinds": [
+      "recombinant-enzyme-assay",
+      "inhibitor-study",
+      "native-overexpression"
+    ],
+    "evidence": [
+      "Recombinant AtKS assays and carbocation-analogue inhibition support the cyclisation mechanism; Arabidopsis overexpression provides separate native-pathway evidence.",
+      "재조합 AtKS 활성과 carbocation 유사체의 저해가 고리 형성 기작을 지지하며, Arabidopsis 과발현 실험은 별도의 원생물 경로 근거를 제공합니다."
+    ],
+    "limitation": [
+      "Higher ent-kaurene does not by itself imply higher bioactive GA: the cited plants maintained GA homeostasis.",
+      "Ent-kaurene 증가가 곧 활성 GA 증가를 뜻하지 않습니다. 인용된 식물에서는 GA 항상성이 유지됐습니다."
+    ],
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/17892288/",
+      "https://pubmed.ncbi.nlm.nih.gov/12805613/"
+    ],
+    "reviewedOn": "2026-11-01"
+  },
+  {
+    "graph": "diterpene-pathway",
+    "alsoGraphs": [
+      "precursors"
+    ],
+    "from": "ggpp",
+    "to": "kpp",
+    "enzyme": [
+      "(−)-Kolavenyl diphosphate synthase (SdKPS; class II)",
+      "(−)-Kolavenyl diphosphate synthase (SdKPS; class II)"
+    ],
+    "organism": [
+      "Salvia divinorum",
+      "Salvia divinorum"
+    ],
+    "cofactors": [
+      "Protonation-initiated cyclisation; diphosphate is retained.",
+      "Protonation으로 시작되는 고리 형성이며 diphosphate는 유지됩니다."
+    ],
+    "change": [
+      "Cyclisation and rearrangement yield the defined (−)-KPP stereoisomer.",
+      "고리 형성과 재배열로 특정 입체이성질체 (−)-KPP가 생성됩니다."
+    ],
+    "evidenceKinds": [
+      "purified-enzyme-assay",
+      "heterologous-plant-expression",
+      "mutagenesis"
+    ],
+    "evidence": [
+      "Purified SdKPS converted GGPP; phosphatase-treated product matched authentic kolavenol. Transient tobacco expression corroborated activity.",
+      "정제 SdKPS의 GGPP 전환과 탈인산화 산물의 kolavenol 표준물질 일치를 확인했으며 담배의 일시적 발현으로 활성을 뒷받침했습니다."
+    ],
+    "limitation": [
+      "One defined clerodane-forming enzyme does not assign every clerodane stereochemical class.",
+      "한 clerodane 생성 효소가 모든 clerodane 입체계열을 설명하는 것은 아닙니다."
+    ],
+    "sources": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5441855/"
+    ],
+    "reviewedOn": "2026-11-01"
+  },
+  {
+    "graph": "diterpene-pathway",
+    "from": "labdane",
+    "to": "halimane",
+    "enzyme": [
+      "Class II TPS cascade; MtHPS is a characterised halimane-forming example",
+      "Class II TPS 연쇄반응; MtHPS는 규명된 halimane 생성 예시"
+    ],
+    "organism": [
+      "Mycobacterium tuberculosis MtHPS example; mechanistic model",
+      "Mycobacterium tuberculosis MtHPS 예시; 기작 모형"
+    ],
+    "cofactors": [
+      "Intramolecular hydride and methyl migrations within the enzyme.",
+      "효소 내부에서 일어나는 분자 내 hydride 및 methyl 이동."
+    ],
+    "change": [
+      "A labdane-related carbocation rearranges to a halimane-related carbocation.",
+      "Labdane형 carbocation이 halimane형 carbocation으로 재배열됩니다."
+    ],
+    "evidenceKinds": [
+      "proposed-mechanism",
+      "mutagenesis",
+      "molecular-modelling"
+    ],
+    "evidence": [
+      "MtHPS mutations diverted products towards less-rearranged labdane frameworks; modelling supports a carbocation cascade.",
+      "MtHPS 돌연변이는 산물을 덜 재배열된 labdane 골격으로 전환했고 모델링은 carbocation 연쇄반응을 지지했습니다."
+    ],
+    "limitation": [
+      "The map's parent scaffold pictures stand for enzyme-bound intermediates, not a free labdane-to-halimane enzyme reaction.",
+      "지도 속 모체 골격 그림은 효소에 결합한 중간체를 대표하며 자유 labdane을 halimane으로 바꾸는 별도 반응이 아닙니다."
+    ],
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/36281298/"
+    ],
+    "reviewedOn": "2026-11-01"
+  },
+  {
+    "graph": "diterpene-pathway",
+    "from": "halimane",
+    "to": "clerodane",
+    "enzyme": [
+      "Continued class II TPS rearrangement; SdKPS example",
+      "이어지는 class II TPS 재배열; SdKPS 예시"
+    ],
+    "organism": [
+      "Salvia divinorum SdKPS example; proposed mechanism",
+      "Salvia divinorum SdKPS 예시; 제안된 기작"
+    ],
+    "cofactors": [
+      "Intramolecular migrations followed by deprotonation.",
+      "분자 내 이동 후 탈양성자화."
+    ],
+    "change": [
+      "Further hydride/methyl migration generates the clerodane-related cation before termination.",
+      "추가 hydride/methyl 이동으로 종결 전 clerodane형 cation을 형성합니다."
+    ],
+    "evidenceKinds": [
+      "proposed-mechanism",
+      "mutagenesis"
+    ],
+    "evidence": [
+      "SdKPS product-switching mutations support altered termination versus rearrangement; the transient sequence remains a mechanistic proposal.",
+      "SdKPS 산물 전환 돌연변이는 반응 종결과 재배열의 차이를 지지하며 짧은 수명의 중간체 순서는 기작 제안입니다."
+    ],
+    "limitation": [
+      "Do not interpret this as isolated HPP being converted directly into KPP.",
+      "분리된 HPP가 KPP로 직접 전환된다는 뜻으로 해석하면 안 됩니다."
+    ],
+    "sources": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5441855/"
+    ],
+    "reviewedOn": "2026-11-01"
+  },
+  {
+    "graph": "monoterpenes",
+    "from": "minus-limonene",
+    "to": "plus-pulegone",
+    "status": "known-multistep-summary",
+    "steps": [
+      [
+        "(−)-Limonene → (−)-trans-isopiperitenol: limonene-3-hydroxylase",
+        "(−)-Limonene → (−)-trans-isopiperitenol: limonene-3-hydroxylase"
+      ],
+      [
+        "(−)-trans-Isopiperitenol → (−)-isopiperitenone: isopiperitenol dehydrogenase",
+        "(−)-trans-Isopiperitenol → (−)-isopiperitenone: isopiperitenol dehydrogenase"
+      ],
+      [
+        "(−)-Isopiperitenone → (+)-cis-isopulegone: isopiperitenone reductase",
+        "(−)-Isopiperitenone → (+)-cis-isopulegone: isopiperitenone reductase"
+      ],
+      [
+        "(+)-cis-Isopulegone → (+)-pulegone: isopulegone isomerase activity",
+        "(+)-cis-Isopulegone → (+)-pulegone: isopulegone isomerase 활성"
+      ]
+    ],
+    "note": [
+      "These steps expand the existing summary. A demonstrated activity does not automatically provide a cloned, validated gene identifier for every step.",
+      "기존 요약 연결을 펼친 단계들입니다. 효소 활성의 입증이 모든 단계의 유전자 식별자 규명을 뜻하지는 않습니다."
+    ],
+    "sources": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC1065387/",
+      "https://pubmed.ncbi.nlm.nih.gov/13679086/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5937688/",
+      "https://pubmed.ncbi.nlm.nih.gov/29979593/"
+    ],
+    "expansion": [
+      [
+        "(−)-Limonene → (−)-trans-isopiperitenol: limonene-3-hydroxylase",
+        "(−)-Limonene → (−)-trans-isopiperitenol: limonene-3-hydroxylase"
+      ],
+      [
+        "(−)-trans-Isopiperitenol → (−)-isopiperitenone: isopiperitenol dehydrogenase",
+        "(−)-trans-Isopiperitenol → (−)-isopiperitenone: isopiperitenol dehydrogenase"
+      ],
+      [
+        "(−)-Isopiperitenone → (+)-cis-isopulegone: isopiperitenone reductase",
+        "(−)-Isopiperitenone → (+)-cis-isopulegone: isopiperitenone reductase"
+      ],
+      [
+        "(+)-cis-Isopulegone → (+)-pulegone: isopulegone isomerase activity",
+        "(+)-cis-Isopulegone → (+)-pulegone: isopulegone isomerase 활성"
+      ]
+    ],
+    "expansionNote": [
+      "These steps expand the existing summary. A demonstrated activity does not automatically provide a cloned, validated gene identifier for every step.",
+      "기존 요약 연결을 펼친 단계들입니다. 효소 활성의 입증이 모든 단계의 유전자 식별자 규명을 뜻하지는 않습니다."
+    ],
+    "enzyme": [
+      "Peppermint tailoring enzymes · several stages",
+      "박하 후속 변형 효소 · 여러 단계"
+    ],
+    "organism": [
+      "Mentha × piperita",
+      "Mentha × piperita"
+    ],
+    "change": [
+      "Hydroxylation, oxidation, reduction and double-bond isomerisation.",
+      "수산화·산화·환원 및 이중결합 이성질화."
+    ]
+  },
+  {
+    "graph": "apocarotenoids",
+    "from": "zeaxanthin",
+    "to": "crocetin-dialdehyde",
+    "group": "ccd2-zeaxanthin-cleavage",
+    "enzyme": [
+      "CsCCD2",
+      "CsCCD2"
+    ],
+    "organism": [
+      "Crocus sativus",
+      "Crocus sativus"
+    ],
+    "evidenceKinds": [
+      "in-vitro",
+      "heterologous-expression"
+    ],
+    "evidence": [
+      "Sequential cleavage was assayed in vitro; expression in E. coli and maize supported the pathway. High-resolution MS and authentic-standard comparison supported product identification.",
+      "시험관 내 연속 절단과 E. coli·옥수수 발현으로 경로를 지지했습니다. 고해상도 MS와 표준물질 비교로 생성물을 확인했습니다."
+    ],
+    "limitation": [
+      "The carbon diagram omits oxygen stoichiometry. The two original outgoing graph edges represent coproducts of one sequential reaction group.",
+      "탄소 도식은 산소 반응량을 생략합니다. 기존 두 연결은 한 연속 반응 그룹의 공동 생성물을 나타냅니다."
+    ],
+    "localization": [
+      "Cytoplasmic localization reported; access to chromoplast-envelope carotenoids was suggested.",
+      "세포질 위치가 보고됐으며 chromoplast envelope carotenoid에 대한 접근은 제안됐습니다."
+    ],
+    "sources": [
+      "https://doi.org/10.1073/pnas.1404629111"
+    ]
+  },
+  {
+    "graph": "apocarotenoids",
+    "from": "zeaxanthin",
+    "to": "htcc",
+    "group": "ccd2-zeaxanthin-cleavage",
+    "enzyme": [
+      "CsCCD2",
+      "CsCCD2"
+    ],
+    "organism": [
+      "Crocus sativus",
+      "Crocus sativus"
+    ],
+    "evidenceKinds": [
+      "in-vitro",
+      "heterologous-expression"
+    ],
+    "evidence": [
+      "Sequential cleavage was assayed in vitro; expression in E. coli and maize supported the pathway. High-resolution MS and authentic-standard comparison supported product identification.",
+      "시험관 내 연속 절단과 E. coli·옥수수 발현으로 경로를 지지했습니다. 고해상도 MS와 표준물질 비교로 생성물을 확인했습니다."
+    ],
+    "limitation": [
+      "The carbon diagram omits oxygen stoichiometry. The two original outgoing graph edges represent coproducts of one sequential reaction group.",
+      "탄소 도식은 산소 반응량을 생략합니다. 기존 두 연결은 한 연속 반응 그룹의 공동 생성물을 나타냅니다."
+    ],
+    "localization": [
+      "Cytoplasmic localization reported; access to chromoplast-envelope carotenoids was suggested.",
+      "세포질 위치가 보고됐으며 chromoplast envelope carotenoid에 대한 접근은 제안됐습니다."
+    ],
+    "sources": [
+      "https://doi.org/10.1073/pnas.1404629111"
+    ]
+  },
+  {
+    "graph": "carotenoids",
+    "from": "diadinoxanthin",
+    "to": "fucoxanthin",
+    "enzyme": [
+      "VDL2, XACT, ZEP1 and CRTISO5 · multiple orders",
+      "VDL2·XACT·ZEP1·CRTISO5 · 여러 반응 순서"
+    ],
+    "organism": [
+      "Phaeodactylum tricornutum reference network",
+      "Phaeodactylum tricornutum 참고 연결망"
+    ],
+    "evidenceKinds": [
+      "in-vitro",
+      "native-genetic-support"
+    ],
+    "evidence": [
+      "Assays establish catalytic alternatives; native flux through each branch remains unquantified.",
+      "효소 실험으로 대체 반응을 확인했으며 각 분기의 생체 내 flux는 정량되지 않았습니다."
+    ],
+    "limitation": [
+      "Individual native branch fluxes are not established by substrate-acceptance assays.",
+      "기질 수용성 실험만으로 각각의 생체 내 분기 flux를 확정할 수 없습니다."
+    ],
+    "sources": [
+      {
+        "url": "https://doi.org/10.1073/pnas.2525772123",
+        "label": "Cao et al. 2026 — XACT and marine carotenoid branching"
+      },
+      {
+        "url": "https://doi.org/10.1073/pnas.2203708119",
+        "label": "Bai et al. 2022 — Diatom fucoxanthin intermediates"
+      },
+      {
+        "url": "https://doi.org/10.1093/plcell/koad116",
+        "label": "Cao et al. 2023 — CRTISO5 alkyne hydration"
+      }
+    ]
+  }
+]

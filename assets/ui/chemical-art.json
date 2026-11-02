@@ -1,0 +1,119 @@
+{
+  "renderer": "RDKit 2026.09.1",
+  "illustrations": [
+    {
+      "file": "assets/ui/family.svg",
+      "title": "Limonene and beta-carotene",
+      "description": "Two actual catalogue structures: (4S)-limonene, C10, and beta-carotene, C40. No conversion is implied.",
+      "structures": [
+        {
+          "id": "minus-limonene",
+          "source": "https://pubchem.ncbi.nlm.nih.gov/compound/439250",
+          "SMILES": "CC1=CC[C@H](CC1)C(=C)C",
+          "depictionSMILES": "CC1=CC[C@H](CC1)C(=C)C",
+          "carbonCount": 10
+        },
+        {
+          "id": "beta-carotene",
+          "source": "https://pubchem.ncbi.nlm.nih.gov/compound/5280489",
+          "SMILES": "CC1=C(C(CCC1)(C)C)/C=C/C(=C/C=C/C(=C/C=C/C=C(/C=C/C=C(/C=C/C2=C(CCCC2(C)C)C)\\C)\\C)/C)/C",
+          "depictionSMILES": "CC1=C(C(CCC1)(C)C)/C=C/C(=C/C=C/C(=C/C=C/C=C(/C=C/C=C(/C=C/C2=C(CCCC2(C)C)C)\\C)\\C)/C)/C",
+          "carbonCount": 40
+        }
+      ]
+    },
+    {
+      "file": "assets/ui/precursor.svg",
+      "title": "IPP plus DMAPP forms GPP",
+      "description": "IPP (C5) + DMAPP (C5) → GPP (C10) + diphosphate. OPP denotes the oxygen-linked diphosphate group; the full carbon connectivity and GPP alkene geometry are retained.",
+      "structures": [
+        {
+          "id": "ipp",
+          "source": "https://pubchem.ncbi.nlm.nih.gov/compound/1195",
+          "SMILES": "CC(=C)CCOP(=O)(O)OP(=O)(O)O",
+          "depictionSMILES": "CC(=C)CC* |$;;;;;OPP$|",
+          "carbonCount": 5
+        },
+        {
+          "id": "dmapp",
+          "source": "https://pubchem.ncbi.nlm.nih.gov/compound/647",
+          "SMILES": "CC(=CCOP(=O)(O)OP(=O)(O)O)C",
+          "depictionSMILES": "CC(=CC*)C |$;;;;OPP;$|",
+          "carbonCount": 5
+        },
+        {
+          "id": "gpp",
+          "source": "https://pubchem.ncbi.nlm.nih.gov/compound/445995",
+          "SMILES": "CC(=CCC/C(=C/COP(=O)(O)OP(=O)(O)O)/C)C",
+          "depictionSMILES": "CC(=CCC/C(=C/C*)/C)C |$;;;;;;;;OPP;;$|",
+          "carbonCount": 10
+        }
+      ]
+    },
+    {
+      "file": "assets/ui/motif.svg",
+      "title": "Geraniol hydroxyl group",
+      "description": "The actual geraniol carbon skeleton, with its terminal alcohol highlighted. The O–H group is coral.",
+      "structures": [
+        {
+          "id": "geraniol",
+          "source": "https://pubchem.ncbi.nlm.nih.gov/compound/637566",
+          "SMILES": "CC(=CCC/C(=C/CO)/C)C",
+          "depictionSMILES": "CC(=CCC/C(=C/CO)/C)C",
+          "carbonCount": 10
+        }
+      ]
+    },
+    {
+      "file": "assets/ui/enzyme.svg",
+      "title": "Menthone to menthol",
+      "description": "The documented menthol-forming reductase reaction. The aligned, stereochemically defined structures show ketone reduction to an alcohol; a specific reductase outcome is illustrated.",
+      "structures": [
+        {
+          "id": "minus-menthone",
+          "SMILES": "C[C@@H]1CC[C@H](C(=O)C1)C(C)C",
+          "source": "https://pubchem.ncbi.nlm.nih.gov/compound/26447",
+          "carbonCount": 10,
+          "alignment": "Existing menthone–menthol comparison; same viewport and orientation."
+        },
+        {
+          "id": "minus-menthol",
+          "SMILES": "C[C@@H]1CC[C@H]([C@@H](C1)O)C(C)C",
+          "source": "https://pubchem.ncbi.nlm.nih.gov/compound/16666",
+          "carbonCount": 10,
+          "alignment": "Existing menthone–menthol comparison; same viewport and orientation."
+        }
+      ]
+    },
+    {
+      "file": "assets/ui/scaffold.svg",
+      "title": "Clerodane and carotenoid reference structures",
+      "description": "A clerodane C20 connectivity model and beta-carotene C40 illustrate distinct carbon frameworks. Clerodane stereochemistry is intentionally unspecified. No reaction between these structures is implied.",
+      "structures": [
+        {
+          "id": "clerodane",
+          "source": "https://pubchem.ncbi.nlm.nih.gov/compound/182677",
+          "SMILES": "CCC(C)CCC1(C)C(C)CCC2(C)C(C)CCCC12",
+          "depictionSMILES": "CCC(C)CCC1(C)C(C)CCC2(C)C(C)CCCC12",
+          "carbonCount": 20
+        },
+        {
+          "id": "beta-carotene",
+          "source": "https://pubchem.ncbi.nlm.nih.gov/compound/5280489",
+          "SMILES": "CC1=C(C(CCC1)(C)C)/C=C/C(=C/C=C/C(=C/C=C/C=C(/C=C/C=C(/C=C/C2=C(CCCC2(C)C)C)\\C)\\C)/C)/C",
+          "depictionSMILES": "CC1=C(C(CCC1)(C)C)/C=C/C(=C/C=C/C(=C/C=C/C=C(/C=C/C=C(/C=C/C2=C(CCCC2(C)C)C)\\C)\\C)/C)/C",
+          "carbonCount": 40
+        }
+      ]
+    },
+    {
+      "file": "assets/ui/comparison.svg",
+      "title": "Copalyl diphosphate stereochemical comparison",
+      "sourceComparison": "cpp-ent",
+      "sourceFiles": [
+        "assets/comparisons/compare-cpp-ent-left-plain.svg",
+        "assets/comparisons/compare-cpp-ent-right-plain.svg"
+      ]
+    }
+  ]
+}

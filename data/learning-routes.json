@@ -1,0 +1,340 @@
+[
+  {
+    "id": "prenyl-chain",
+    "graph": "precursors",
+    "title": [
+      "Build the C10 → C40 carbon pool",
+      "C10 → C40 탄소 공급원 만들기"
+    ],
+    "scope": [
+      "Representative enzyme activities; chain-length specificity depends on the enzyme.",
+      "대표 효소 활성입니다. 사슬 길이 특이성은 효소에 따라 다릅니다."
+    ],
+    "nodes": [
+      "dmapp",
+      "gpp",
+      "fpp",
+      "ggpp",
+      "15-cis-phytoene"
+    ]
+  },
+  {
+    "id": "peppermint-menthol",
+    "graph": "monoterpenes",
+    "title": [
+      "Peppermint · (−)-menthol",
+      "박하 · (−)-menthol"
+    ],
+    "scope": [
+      "Mentha × piperita reference route. The limonene-to-pulegone summary can be expanded in the reaction card.",
+      "Mentha × piperita 참고 경로입니다. Limonene–pulegone 구간의 중간 단계는 반응 카드에서 펼칠 수 있습니다."
+    ],
+    "nodes": [
+      "gpp",
+      "minus-limonene",
+      "plus-pulegone",
+      "minus-menthone",
+      "minus-menthol"
+    ]
+  },
+  {
+    "id": "peppermint-neomenthol",
+    "graph": "monoterpenes",
+    "title": [
+      "Peppermint · (+)-neomenthol branch",
+      "박하 · (+)-neomenthol 분기"
+    ],
+    "scope": [
+      "The MNR branch favours a different alcohol epimer; product proportions are assay-dependent.",
+      "MNR 분기는 다른 alcohol epimer를 우선 생성합니다. 생성물 비율은 실험 조건에 따라 달라집니다."
+    ],
+    "nodes": [
+      "gpp",
+      "minus-limonene",
+      "plus-pulegone",
+      "minus-menthone",
+      "plus-neomenthol"
+    ]
+  },
+  {
+    "id": "nootkatone",
+    "graph": "sesquiterpenes",
+    "title": [
+      "Valencene → nootkatone",
+      "Valencene → nootkatone"
+    ],
+    "scope": [
+      "Characterised Alpinia oxidation activities applied to valencene; this is a reconstructed enzyme sequence.",
+      "Valencene에 적용한 Alpinia 산화 효소의 규명된 활성입니다. 재구성된 효소 조합입니다."
+    ],
+    "nodes": [
+      "fpp",
+      "valencene",
+      "beta-nootkatol",
+      "nootkatone"
+    ]
+  },
+  {
+    "id": "artemisinin",
+    "graph": "artemisinin",
+    "title": [
+      "Artemisia · artemisinin",
+      "Artemisia · artemisinin"
+    ],
+    "scope": [
+      "Artemisia annua reference route, including a multistage non-enzymatic oxidation summary.",
+      "Artemisia annua 참고 경로이며 마지막 구간은 여러 단계의 비효소적 산화를 요약합니다."
+    ],
+    "nodes": [
+      "fpp",
+      "amorpha-diene",
+      "artemisinic-alcohol",
+      "artemisinic-aldehyde",
+      "dihydroartemisinic-aldehyde",
+      "dihydroartemisinic-acid",
+      "artemisinin"
+    ]
+  },
+  {
+    "id": "ent-kaurene",
+    "graph": "diterpene-pathway",
+    "title": [
+      "ent-CPP → ent-kaurene",
+      "ent-CPP → ent-kaurene"
+    ],
+    "scope": [
+      "Class II and class I activities are separate; inspect the reaction for the characterised enzyme source.",
+      "Class II와 class I 활성은 별도입니다. 반응을 선택해 규명된 효소의 출처를 확인하세요."
+    ],
+    "nodes": [
+      "ggpp",
+      "ent-cpp",
+      "ent-kaurene"
+    ]
+  },
+  {
+    "id": "kpp-assay",
+    "graph": "diterpene-pathway",
+    "title": [
+      "Salvia KPP · phosphatase assay",
+      "Salvia KPP · phosphatase 분석"
+    ],
+    "scope": [
+      "SdKPS product formation followed by added phosphatase for analysis. The final arrow is an assay treatment.",
+      "SdKPS 산물 생성 후 분석을 위해 phosphatase를 첨가한 조합입니다. 마지막 화살표는 실험 처리입니다."
+    ],
+    "nodes": [
+      "ggpp",
+      "kpp",
+      "kolavenol"
+    ]
+  },
+  {
+    "id": "kpp-compatible",
+    "graph": "diterpene-pathway",
+    "title": [
+      "KPP → kolavelool · tested pairing",
+      "KPP → kolavelool · 검증된 조합"
+    ],
+    "scope": [
+      "Cross-species enzyme compatibility in a reconstructed system; not a claimed native Salvia route.",
+      "재구성계에서 시험한 종간 효소 조합입니다. Salvia의 자연 경로를 뜻하지 않습니다."
+    ],
+    "nodes": [
+      "ggpp",
+      "kpp",
+      "kolavelool"
+    ]
+  },
+  {
+    "id": "ga12",
+    "graph": "gibberellins",
+    "title": [
+      "Plant gibberellins · GA12",
+      "식물 gibberellin · GA12"
+    ],
+    "scope": [
+      "Plant reference route with Arabidopsis enzyme examples.",
+      "Arabidopsis 효소 예시를 포함한 식물 참고 경로입니다."
+    ],
+    "nodes": [
+      "ggpp",
+      "ent-cpp",
+      "ent-kaurene",
+      "ent-kaurenol",
+      "ent-kaurenal",
+      "ent-kaurenoic-acid",
+      "ent-7alpha-hydroxykaurenoic-acid",
+      "ga12-aldehyde",
+      "ga12"
+    ]
+  },
+  {
+    "id": "plant-lycopene",
+    "graph": "plant-carotenoids",
+    "title": [
+      "Plant poly-cis route → lycopene",
+      "식물 poly-cis 경로 → lycopene"
+    ],
+    "scope": [
+      "Plant-type desaturation and isomerisation with explicit intermediate geometry.",
+      "중간체 기하배열을 구분한 식물형 불포화화·이성질화 경로입니다."
+    ],
+    "nodes": [
+      "ggpp",
+      "15-cis-phytoene",
+      "15-9-dicis-phytofluene",
+      "tri-cis-zeta-carotene",
+      "di-cis-zeta-carotene",
+      "tri-cis-neurosporene",
+      "prolycopene",
+      "lycopene"
+    ]
+  },
+  {
+    "id": "astaxanthin-hydroxy-first",
+    "graph": "carotenoids",
+    "title": [
+      "Astaxanthin · hydroxylation first",
+      "Astaxanthin · 수산화 먼저"
+    ],
+    "scope": [
+      "Composite route requiring compatible hydroxylases and ketolases. Substrate scope varies between organisms.",
+      "호환되는 hydroxylase와 ketolase를 조합한 경로입니다. 기질 범위는 생물종에 따라 다릅니다."
+    ],
+    "nodes": [
+      "beta-carotene",
+      "beta-cryptoxanthin",
+      "zeaxanthin",
+      "adonixanthin",
+      "astaxanthin"
+    ]
+  },
+  {
+    "id": "astaxanthin-keto-first",
+    "graph": "carotenoids",
+    "title": [
+      "Astaxanthin · ketolation first",
+      "Astaxanthin · ketolation 먼저"
+    ],
+    "scope": [
+      "Alternative enzyme-compatible order; this comparison does not establish native flux through either branch.",
+      "효소가 수용할 수 있는 대체 반응 순서입니다. 이 비교가 각 분기의 생체 내 flux를 입증하지는 않습니다."
+    ],
+    "nodes": [
+      "beta-carotene",
+      "echinenone",
+      "canthaxanthin",
+      "adonirubin",
+      "astaxanthin"
+    ]
+  },
+  {
+    "id": "fucoxanthin",
+    "graph": "carotenoids",
+    "title": [
+      "Algal fucoxanthin · branch network",
+      "조류 fucoxanthin · 분기 연결망"
+    ],
+    "scope": [
+      "Algal overview with unresolved and lineage-dependent steps. Expand the final connection for the Phaeodactylum enzyme network.",
+      "미규명·계통별 단계를 포함한 조류 개요입니다. 마지막 연결을 펼쳐 Phaeodactylum 효소 연결망을 확인하세요."
+    ],
+    "nodes": [
+      "violaxanthin",
+      "neoxanthin",
+      "diadinoxanthin",
+      "fucoxanthin"
+    ]
+  },
+  {
+    "id": "retinoids",
+    "graph": "apocarotenoids",
+    "title": [
+      "Provitamin A · retinal → retinol",
+      "Provitamin A · retinal → retinol"
+    ],
+    "scope": [
+      "BCO1 cleavage and a human AKR reductase example; independent retinoid activities are shown.",
+      "BCO1 절단과 인간 AKR 환원효소 예시입니다. 각각 규명된 retinoid 활성을 연결합니다."
+    ],
+    "nodes": [
+      "beta-carotene",
+      "retinal",
+      "retinol"
+    ]
+  },
+  {
+    "id": "crocin",
+    "graph": "apocarotenoids",
+    "title": [
+      "Saffron · crocin I",
+      "사프란 · crocin I"
+    ],
+    "scope": [
+      "Crocus sativus enzymes; two cleavages, two aldehyde oxidations and several sugar transfers are expandable summaries.",
+      "Crocus sativus 효소 경로입니다. 두 번의 절단·aldehyde 산화와 여러 당 전이는 펼쳐볼 수 있는 요약 구간입니다."
+    ],
+    "nodes": [
+      "zeaxanthin",
+      "crocetin-dialdehyde",
+      "crocetin",
+      "crocin-i"
+    ]
+  },
+  {
+    "id": "picrocrocin",
+    "graph": "apocarotenoids",
+    "title": [
+      "Saffron · picrocrocin and processing",
+      "사프란 · picrocrocin과 가공"
+    ],
+    "scope": [
+      "A coproduct branch from the same CCD2 cleavage. The safranal endpoint includes processing chemistry.",
+      "동일한 CCD2 절단의 공동 생성물 분기입니다. Safranal 구간은 가공 중 반응을 포함합니다."
+    ],
+    "nodes": [
+      "zeaxanthin",
+      "htcc",
+      "picrocrocin",
+      "safranal"
+    ]
+  },
+  {
+    "id": "aba",
+    "graph": "aba-cleavage",
+    "title": [
+      "9-cis precursor → ABA",
+      "9-cis 전구체 → ABA"
+    ],
+    "scope": [
+      "Reference NCED, ABA2 and AAO3 activities; the initial cis geometry is required.",
+      "NCED·ABA2·AAO3의 참고 활성입니다. 출발물질의 cis 배열이 중요합니다."
+    ],
+    "nodes": [
+      "9-cis-violaxanthin",
+      "xanthoxin",
+      "aba-aldehyde",
+      "abscisic-acid"
+    ]
+  },
+  {
+    "id": "iridoid",
+    "graph": "iridoids",
+    "title": [
+      "Geraniol → cis-trans nepetalactone",
+      "Geraniol → cis-trans nepetalactone"
+    ],
+    "scope": [
+      "A characterised enzyme combination including Catharanthus and Nepeta enzymes; reconstructed scope.",
+      "Catharanthus와 Nepeta 효소를 포함한 규명된 조합입니다. 재구성계의 범위로 읽으세요."
+    ],
+    "nodes": [
+      "geraniol",
+      "8-hydroxygeraniol",
+      "8-oxogeranial",
+      "cis-trans-nepetalactol",
+      "cis-trans-nepetalactone"
+    ]
+  }
+]

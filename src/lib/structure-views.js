@@ -42,8 +42,8 @@ export const familySubmaps={
     {
       "id": "diterpene-pathway",
       "label": [
-        "Full pathway",
-        "전체 경로"
+        "Reference pathways",
+        "참고 경로"
       ]
     },
     {
@@ -72,8 +72,8 @@ export const familySubmaps={
     {
       "id": "carotenoids",
       "label": [
-        "Full pathway",
-        "전체 경로"
+        "Reference pathways",
+        "참고 경로"
       ]
     },
     {

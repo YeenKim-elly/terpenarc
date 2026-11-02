@@ -3,7 +3,7 @@
 // GPP → geraniol: GES / geranyl-diphosphate diphosphatase, EC 3.1.7.11.
 const copy = {
  en: {
-  atlas:'IN THE ATLAS',name:'Geraniol',kind:'MONOTERPENOID',explore:'ISOPRENE X-RAY',
+  atlas:'FROM THE COLLECTION',name:'Geraniol',kind:'MONOTERPENOID',explore:'ISOPRENE X-RAY',
   modes:['Raw skeleton','Highlight C5 units','Spot modification'],
   descriptions:[
    'Each unlabelled corner or line end is a carbon. Ten carbons make this a C10 monoterpenoid.',
@@ -18,7 +18,7 @@ const copy = {
   hint:'Try another view',
  },
  ko: {
-  atlas:'ATLAS 수록 분자',name:'게라니올',kind:'모노테르페노이드',explore:'아이소프렌 X-RAY',
+  atlas:'컬렉션 속 분자',name:'게라니올',kind:'모노테르페노이드',explore:'아이소프렌 X-RAY',
   modes:['기본 골격','C5 단위 강조','작용기 찾기'],
   descriptions:[
    '원소 기호가 없는 모서리와 선의 끝은 탄소입니다. 탄소 10개로 이루어진 C10 모노테르페노이드입니다.',

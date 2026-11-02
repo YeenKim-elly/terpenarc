@@ -1,0 +1,229 @@
+{
+  "id": "fucoxanthin-branches",
+  "existingEdge": {
+    "graph": "carotenoids",
+    "from": "diadinoxanthin",
+    "to": "fucoxanthin"
+  },
+  "title": [
+    "Fucoxanthin: alternate reaction orders",
+    "Fucoxanthin: 대체 반응 순서"
+  ],
+  "scope": [
+    "Phaeodactylum tricornutum enzyme activities",
+    "Phaeodactylum tricornutum 효소 활성"
+  ],
+  "nodeRepresentation": "text-only intermediates until structures independently verified",
+  "nodes": [
+    {
+      "id": "diadinoxanthin",
+      "label": "Diadinoxanthin",
+      "recordId": "diadinoxanthin",
+      "coreCarbon": 40
+    },
+    {
+      "id": "allenoxanthin",
+      "label": "Allenoxanthin",
+      "coreCarbon": 40
+    },
+    {
+      "id": "haptoxanthin",
+      "label": "Haptoxanthin",
+      "coreCarbon": 40,
+      "totalCarbon": 42
+    },
+    {
+      "id": "phaneroxanthin",
+      "label": "Phaneroxanthin",
+      "coreCarbon": 40,
+      "totalCarbon": 42
+    },
+    {
+      "id": "phaneroxanthinol",
+      "label": "Phaneroxanthinol",
+      "coreCarbon": 40
+    },
+    {
+      "id": "fucoxanthinol",
+      "label": "Fucoxanthinol",
+      "coreCarbon": 40
+    },
+    {
+      "id": "fucoxanthin",
+      "label": "Fucoxanthin",
+      "recordId": "fucoxanthin",
+      "coreCarbon": 40,
+      "totalCarbon": 42
+    }
+  ],
+  "branches2026": {
+    "source": "xact2026",
+    "evidence": [
+      "in-vitro"
+    ],
+    "caveat": [
+      "Assays establish catalytic alternatives; native flux through each branch remains unquantified.",
+      "효소 실험으로 대체 반응을 확인했으며 각 분기의 생체 내 flux는 정량되지 않았습니다."
+    ],
+    "edges": [
+      {
+        "from": "allenoxanthin",
+        "to": "haptoxanthin",
+        "enzyme": "PtXACT",
+        "change": [
+          "O-acetylation",
+          "O-acetylation"
+        ],
+        "cosubstrate": "acetyl-CoA",
+        "coproduct": "CoA"
+      },
+      {
+        "from": "phaneroxanthinol",
+        "to": "phaneroxanthin",
+        "enzyme": "PtXACT",
+        "change": [
+          "O-acetylation",
+          "O-acetylation"
+        ],
+        "cosubstrate": "acetyl-CoA",
+        "coproduct": "CoA"
+      },
+      {
+        "from": "fucoxanthinol",
+        "to": "fucoxanthin",
+        "enzyme": "PtXACT",
+        "change": [
+          "O-acetylation",
+          "O-acetylation"
+        ],
+        "cosubstrate": "acetyl-CoA",
+        "coproduct": "CoA"
+      },
+      {
+        "from": "allenoxanthin",
+        "to": "phaneroxanthinol",
+        "enzyme": "PtZEP1",
+        "change": [
+          "Epoxidation",
+          "Epoxidation"
+        ]
+      },
+      {
+        "from": "phaneroxanthinol",
+        "to": "fucoxanthinol",
+        "enzyme": "PtCRTISO5",
+        "change": [
+          "Alkyne hydration",
+          "Alkyne hydration"
+        ],
+        "cosubstrate": "H2O",
+        "cofactor": "reduced FAD"
+      }
+    ],
+    "nativeEvidence": [
+      "XACT disruption eliminates fucoxanthin; complementation restores production.",
+      "XACT 유전자 파괴 시 fucoxanthin이 소실되고 상보성 실험에서 회복됩니다."
+    ],
+    "negativeControls": [
+      "PtXACT did not accept all-trans-neoxanthin, violaxanthin or diadinoxanthin in the tested assays.",
+      "시험 조건에서 PtXACT는 all-trans-neoxanthin, violaxanthin, diadinoxanthin을 이용하지 못했습니다."
+    ]
+  },
+  "establishedEdges": [
+    {
+      "from": "diadinoxanthin",
+      "to": "allenoxanthin",
+      "enzyme": "PtVDL2 assignment; GtVDL biochemical analogue",
+      "source": "fuco2022",
+      "evidence": [
+        "native-genetic-support",
+        "homolog-in-vitro"
+      ],
+      "detail": [
+        "PtVDL2 knockout accumulates diadinoxanthin; native-gene complementation restores fucoxanthin. Recombinant Guillardia theta VDL catalyses this tautomerization; recombinant PtVDL2 was inactive under the reported assay conditions.",
+        "PtVDL2 결손에서 diadinoxanthin이 축적되고 상보성 실험에서 fucoxanthin이 회복됩니다. 재조합 Guillardia theta VDL로 이 tautomerization을 확인했지만 보고된 조건의 PtVDL2 시험에서는 활성을 검출하지 못했습니다."
+      ],
+      "change": [
+        "Epoxide-to-allene tautomerization",
+        "Epoxide에서 allene으로의 tautomerization"
+      ]
+    },
+    {
+      "from": "haptoxanthin",
+      "to": "phaneroxanthin",
+      "enzyme": "PtZEP1",
+      "source": "fuco2022",
+      "evidence": [
+        "in-vitro",
+        "native-genetic-support"
+      ],
+      "detail": [
+        "Recombinant PtZEP1 epoxidates haptoxanthin; ZEP1-deficient diatoms accumulate haptoxanthin.",
+        "재조합 PtZEP1은 haptoxanthin을 epoxidation하며 ZEP1 결손 규조류에는 haptoxanthin이 축적됩니다."
+      ],
+      "change": [
+        "Epoxide formation",
+        "Epoxide 형성"
+      ]
+    },
+    {
+      "from": "phaneroxanthin",
+      "to": "fucoxanthin",
+      "enzyme": "PtCRTISO5",
+      "source": "crtiso2023",
+      "evidence": [
+        "in-vitro",
+        "native-genetic-support",
+        "isotope-labelling"
+      ],
+      "detail": [
+        "CRTISO5 knockout accumulates phaneroxanthin and lacks fucoxanthin. Recombinant enzyme hydrates the internal alkyne; heavy-oxygen water labels the product oxygen.",
+        "CRTISO5 결손에서 phaneroxanthin이 축적되고 fucoxanthin이 소실됩니다. 재조합 효소가 내부 alkyne을 수화하며 중산소 표지 물에서 생성물의 산소 표지를 확인했습니다."
+      ],
+      "change": [
+        "C7≡C8 hydration; C8 ketone formation",
+        "C7≡C8 수화 및 C8 ketone 형성"
+      ],
+      "cosubstrate": "H2O",
+      "cofactor": "reduced FAD",
+      "caveat": [
+        "Redox-neutral hydration. Do not label this as cis/trans isomerization or O2-dependent ketolation.",
+        "산화환원 중성 수화입니다. Cis/trans isomerization 또는 O2 의존 ketolation으로 표기하지 않습니다."
+      ]
+    }
+  ],
+  "upstreamGap": {
+    "from": "neoxanthin",
+    "to": "diadinoxanthin",
+    "enzyme": null,
+    "source": "fuco2022",
+    "label": [
+      "Dehydration; enzyme unassigned",
+      "탈수; 효소 미규명"
+    ],
+    "status": "proposed-unassigned"
+  },
+  "routeOptions": [
+    [
+      "diadinoxanthin",
+      "allenoxanthin",
+      "haptoxanthin",
+      "phaneroxanthin",
+      "fucoxanthin"
+    ],
+    [
+      "diadinoxanthin",
+      "allenoxanthin",
+      "phaneroxanthinol",
+      "phaneroxanthin",
+      "fucoxanthin"
+    ],
+    [
+      "diadinoxanthin",
+      "allenoxanthin",
+      "phaneroxanthinol",
+      "fucoxanthinol",
+      "fucoxanthin"
+    ]
+  ]
+}
